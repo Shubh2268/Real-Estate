@@ -26,7 +26,7 @@ const Navbar = () => {
     ];
 
     return (
-        <div className='w-screen h-14 z-20 fixed'>
+        <div className='w-full h-14 z-20'>
             <div className='px-5 lg:px-14 flex items-center justify-between w-full h-full'>
 
                 <div className='flex items-center'>
@@ -72,7 +72,7 @@ const Navbar = () => {
                         <ul className='capitalize'>
                             {
                                 links.map(({ id, link }) => (
-                                    <li key={id} className='py-2 text-lg sm:text-xl tracking-wide cursor-pointer'>
+                                    <li key={id} className='py-1 my-1 text-lg sm:text-xl tracking-wide cursor-pointer hover:text-primary'>
                                         <a onClick={() => setNavigation(false)} offset={-75}>
                                             {link}
                                         </a>
