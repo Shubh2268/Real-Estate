@@ -1,9 +1,10 @@
 import React from 'react';
+import HorizontalScrollbar from './HorizontalScrollbar';
 
 const Categories = () => {
   return (
     <div>
-      Categories
+      <HorizontalScrollbar />
     </div>
   )
 }
