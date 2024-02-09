@@ -29,6 +29,18 @@ const HorizontalScrollbar = () => {
             id: 6,
             img: 'https://imagetolink.com/ib/H58ECPVtIo.jpg'
         },
+        {
+            id: 7,
+            img: 'https://imagetolink.com/ib/PvJmJMoR9C.jpg'
+        },
+        {
+            id: 8,
+            img: 'https://imagetolink.com/ib/8ZG66eaEsN.jpg'
+        },
+        {
+            id: 9,
+            img: 'https://imagetolink.com/ib/H58ECPVtIo.jpg'
+        }
     ];
 
     const slideLeft = () => {
@@ -43,7 +55,7 @@ const HorizontalScrollbar = () => {
 
     return (
         <div className='relative flex items-center my-1'>
-            <FaChevronLeft onClick={slideLeft} size={15} className='cursor-pointer opacity-100 hover:opacity-50 mx-2' />
+            <FaChevronLeft onClick={slideLeft} className='cursor-pointer opacity-100 hover:opacity-50 ml-2 w-5 h-4' />
             <div id="slider" className='overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide'>
                 {data.map((item) => (
                     <div key={item.id} className='inline-block my-0 lg:my-5'>
@@ -51,7 +63,7 @@ const HorizontalScrollbar = () => {
                     </div>
                 ))}
             </div>
-            <FaChevronRight onClick={slideRight} size={15} className='cursor-pointer opacity-100 hover:opacity-50 mx-2' />
+            <FaChevronRight onClick={slideRight} className='cursor-pointer opacity-100 hover:opacity-50 mr-2 w-5 h-4' />
         </div>
     )
 }
