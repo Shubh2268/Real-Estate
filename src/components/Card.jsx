@@ -3,9 +3,9 @@ import React from 'react'
 const Card = ({ img }) => {
   return (
     <button className='w-64 h-40 mx-4'>
+      <div className='border-[1px] border-gray-300 rounded-md'>
       <img src={img} alt='' className='w-full h-full rounded-t-md' />
-      <div>
-        <p className='bg-gray-100 text-gray-700 font-medium tracking-wide capitalize py-2 text-xs rounded-b-md'>sea view </p>
+      <h2 className='p-2 text-sm font-medium text-start'>Serene Haven Estates</h2>
       </div>
     </button>
   )
