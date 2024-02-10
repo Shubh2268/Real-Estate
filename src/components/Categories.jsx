@@ -9,16 +9,16 @@ const Categories = () => {
         <HorizontalScrollbar />
       </div>
 
-      <div className='h-screen my-14 mx-4 md:mx-10'>
-        <div className='grid grid-cols-1 grid-rows-3 md:grid-rows-4 md:grid-cols-4 gap-3 md:gap-4 h-screen'>
-          <div className='col-span-1 md:row-span-2 md:col-span-2 w-full bg-center bg-cover rounded-md' style={{backgroundImage: `url('https://imagetolink.com/ib/cPyUD6C0ZY.jpg')`}}>
-            <span className='text-white fixed bottom-2'>Penthouse</span>
+      <div className='h-screen my-14 mx-4 md:mx-16'>
+        <div className='grid grid-cols-1 grid-rows-4 md:grid-cols-4 gap-3 md:gap-6 h-screen'>
+          <div className='col-span-1 md:row-span-2 md:col-span-2 w-full bg-center bg-cover rounded-3xl bg-gray-900 bg-opacity-50' style={{backgroundImage: `url('https://imagetolink.com/ib/XDfI3brYJD.jpg')`}}>
+            <p className='text-[#FFB901] text-center mt-10 text-3xl font-bold'>Penthouse</p>
           </div>
-          <div className='col-span-1 md:col-span-2 row-span-1 md:row-span-4 w-full bg-center bg-cover rounded-md' style={{backgroundImage: `url('https://imagetolink.com/ib/cPyUD6C0ZY.jpg')`}}>
-            <span className='text-white fixed bottom-2'>Off Plan Property</span>
+          <div className='col-span-1 md:col-span-2 row-span-2 md:row-span-4 w-full bg-center bg-cover rounded-3xl' style={{backgroundImage: `url('https://imagetolink.com/ib/iArVjQlxxX.jpg')`}}>
+            <p className='text-[#FFB901] text-center mt-10 text-3xl font-bold'>Off Plan Property</p>
           </div>
-          <div className='col-span-1 md:row-span-2 md:col-span-2 w-full bg-center bg-cover rounded-md' style={{backgroundImage: `url('https://imagetolink.com/ib/cPyUD6C0ZY.jpg')`}}>
-            <span className='text-white fixed bottom-2'>Rented Apartment</span>
+          <div className='col-span-1 md:row-span-2 md:col-span-2 w-full bg-center bg-cover rounded-3xl' style={{backgroundImage: `url('https://imagetolink.com/ib/nb3Vc2PmWx.jpg')`}}>
+            <p className='text-[#FFB901] text-center mt-10 text-3xl font-bold'>Rented Apartment</p>
           </div>
         </div>
       </div>
